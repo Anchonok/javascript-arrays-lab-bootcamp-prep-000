@@ -2,6 +2,7 @@ var kittens = ["Milo", "Otis", "Garfield"]; //define your array here
 
 // Add your functions and code here
 
+<<<<<<< HEAD
 function destructivelyAppendKitten (name) {
  return kittens.push(name);
 }
@@ -32,4 +33,8 @@ function removeLastKitten() {
 
 function removeFirstKitten() {
   return kittens.slice(1);
+=======
+function destructiveAppendKitten (name) {
+  return name.push();
+>>>>>>> 6f8ae12f0a585ecf6fc9cc9ea152b6021aa8694a
 }
